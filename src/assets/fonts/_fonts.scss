@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Ogg';
+    src: url('OggLightItalic.eot');
+    src: url('OggLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('OggLightItalic.woff2') format('woff2'),
+        url('OggLightItalic.woff') format('woff'),
+        url('OggLightItalic.svg#OggLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('OggBoldItalic.eot');
+    src: url('OggBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OggBoldItalic.woff2') format('woff2'),
+        url('OggBoldItalic.woff') format('woff'),
+        url('OggBoldItalic.svg#OggBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('OggBold.eot');
+    src: url('OggBold.eot?#iefix') format('embedded-opentype'),
+        url('OggBold.woff2') format('woff2'),
+        url('OggBold.woff') format('woff'),
+        url('OggBold.svg#OggBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('OggRegular.eot');
+    src: url('OggRegular.eot?#iefix') format('embedded-opentype'),
+        url('OggRegular.woff2') format('woff2'),
+        url('OggRegular.woff') format('woff'),
+        url('OggRegular.svg#OggRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('OggRegularItalic.eot');
+    src: url('OggRegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('OggRegularItalic.woff2') format('woff2'),
+        url('OggRegularItalic.woff') format('woff'),
+        url('OggRegularItalic.svg#OggRegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('OggMediumItalic.eot');
+    src: url('OggMediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('OggMediumItalic.woff2') format('woff2'),
+        url('OggMediumItalic.woff') format('woff'),
+        url('OggMediumItalic.svg#OggMediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('OggMedium.eot');
+    src: url('OggMedium.eot?#iefix') format('embedded-opentype'),
+        url('OggMedium.woff2') format('woff2'),
+        url('OggMedium.woff') format('woff'),
+        url('OggMedium.svg#OggMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('OggLight.eot');
+    src: url('OggLight.eot?#iefix') format('embedded-opentype'),
+        url('OggLight.woff2') format('woff2'),
+        url('OggLight.woff') format('woff'),
+        url('OggLight.svg#OggLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('OggThin.eot');
+    src: url('OggThin.eot?#iefix') format('embedded-opentype'),
+        url('OggThin.woff2') format('woff2'),
+        url('OggThin.woff') format('woff'),
+        url('OggThin.svg#OggThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('OggThinItalic.eot');
+    src: url('OggThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('OggThinItalic.woff2') format('woff2'),
+        url('OggThinItalic.woff') format('woff'),
+        url('OggThinItalic.svg#OggThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+.ogg-thin {
+    font-family: "Ogg";
+    font-weight: 100;
+  }
+  
+  .ogg-thinItalic {
+    font-family: "Ogg";
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .ogg-light {
+    font-family: "Ogg";
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ogg-lightItalic {
+    font-family: "Ogg";
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ogg-regular {
+    font-family: "Ogg";
+    font-weight: normal;
+    font-style: normal;
+  }
+  .ogg-regularItalic {
+    font-family: "Ogg";
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  .ogg-bold {
+    font-family: "Ogg";
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .ogg-boldItalic {
+    font-family: "Ogg";
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .ogg-medium {
+    font-family: "Ogg";
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ogg-mediumItalic {
+    font-family: "Ogg";
+    font-weight: 500;
+    font-style: italic;
+  }
+  

@@ -1,0 +1,39 @@
+.shape {
+  width: 100px;
+  aspect-ratio: 1;
+  background-color: rgba(var(--secondary-light), 0.8);
+  position: absolute;
+  z-index: -1;
+}
+.circle {
+  border-radius: 50%;
+}
+
+.rectangle {
+  border-radius: 0.5rem;
+}
+
+.shape1 {
+  background: rgba(var(--shape-one-dark), 0.3);
+  background: -webkit-linear-gradient(top left, rgba(var(--shape-one-dark), 0.3), rgba(var(--shape-one-light), 0.3));
+  background: -moz-linear-gradient(top left, rgba(var(--shape-one-dark), 0.3), rgba(var(--shape-one-light), 0.3));
+  background: linear-gradient(to bottom right, rgba(var(--shape-one-dark), 0.3), rgba(var(--shape-one-light), 0.3));
+}
+
+.shape2 {
+  background: rgba(var(--shape-two-dark), 0.3);
+  background: -webkit-linear-gradient(top left, rgba(var(--shape-two-dark), 0.3), rgba(var(--shape-two-light), 0.3));
+  background: -moz-linear-gradient(top left, rgba(var(--shape-two-dark), 0.3), rgba(var(--shape-two-light), 0.3));
+  background: linear-gradient(to bottom right, rgba(var(--shape-two-dark), 0.3), rgba(var(--shape-two-light), 0.3));
+}
+
+.shape3 {
+  background: rgba(var(--shape-three-dark), 0.3);
+  background: -webkit-linear-gradient(
+    top left,
+    rgba(var(--shape-three-dark), 0.3),
+    rgba(var(--shape-three-light), 0.3)
+  );
+  background: -moz-linear-gradient(top left, rgba(var(--shape-three-dark), 0.3), rgba(var(--shape-three-light), 0.3));
+  background: linear-gradient(to bottom right, rgba(var(--shape-three-dark), 0.3), rgba(var(--shape-three-light), 0.3));
+}

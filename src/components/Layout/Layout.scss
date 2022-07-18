@@ -1,0 +1,25 @@
+#layout {
+  .shape1 {
+    top: -150px;
+    right: -150px;
+    width: 500px;
+    @media screen and (max-width: 600px) {
+      top: -150px !important;
+      right: -150px;
+      opacity: 0.8;
+      width: 400px;
+    }
+  }
+
+  .shape2 {
+    bottom: -10px;
+    left: -50px;
+    width: 150px;
+  }
+  .shape3 {
+    top: -10px;
+    left: -50px;
+    width: 150px;
+
+  }
+}

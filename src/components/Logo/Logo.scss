@@ -1,0 +1,11 @@
+.logo__container {
+  display: flex;
+  width: 200px;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  svg {
+    object-fit: contain;
+    width: 100%;
+  }
+}
