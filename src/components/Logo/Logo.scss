@@ -4,6 +4,10 @@
   position: absolute;
   top: 1.5rem;
   left: 1.5rem;
+  @media screen and (max-width: 600px) {
+    top: 0rem;
+    width: 150px;
+  }
   svg {
     object-fit: contain;
     width: 100%;

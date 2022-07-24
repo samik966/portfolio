@@ -6,3 +6,4 @@ export { Shape } from './Shapes'
 export { default as Navbar } from './Navbar/Navbar'
 
 export { default as Transition } from './Transition/Transition'
+export { default as Timeline } from './Timeline/Timeline'

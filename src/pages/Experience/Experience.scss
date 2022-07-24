@@ -1,2 +1,37 @@
 #experience__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    text-align: center;
+  }
+
+  .experience__timeline {
+    .vertical {
+      margin-inline: auto;
+      max-width: 800px;
+      max-height: calc(100vh - (55px + 5rem + 50px));
+      overflow: auto;
+    }
+    
+    .horizontal {
+      overflow: auto;
+      margin: auto;
+      @media screen and (max-width: 600px) {
+        max-width: calc(100vw - (48px + 30px));
+      }
+    }
+
+    .timeline__content {
+      .duration {
+        display: block;
+        color: rgb(var(--primary-text));
+        margin-bottom: 0.25rem;
+      }
+      .role {
+        color: rgb(var(--secondary-light))
+      }
+
+    }
+  }
 }

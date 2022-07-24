@@ -6,14 +6,14 @@ const Transition = ({ children, id }) => {
 		<motion.div
 			id={id}
 			className='page__container'
-			initial={{ x: -1000, opacity: 0 }}
+			initial={{ x: -500, opacity: 0 }}
 			animate={{ x: 0, opacity: 1 }}
-			exit={{ x: -1000, opacity: 0 }}
+			exit={{ x: -500, opacity: 0 }}
 			transition={{
 				duration: 2,
 				type: 'spring',
 				damping: 8,
-				mass: 0.6,
+				mass: 0.3,
 				stiffness: 70
 			}}
 		>

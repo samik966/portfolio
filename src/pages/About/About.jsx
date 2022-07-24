@@ -1,10 +1,31 @@
 import { Transition } from 'components'
 import './About.scss'
-
+import image from 'assets/images/me.jpeg'
 const About = () => {
 	return (
 		<Transition id='about__container'>
-			<h1>About</h1>
+			<div className='about'>
+				<div className='about__image'>
+					<img src={image} alt='user' />
+				</div>
+				<div className='about__description'>
+					<h1>About</h1>
+					<p>
+						Hello, My name is Samiuddin Khan, I enjoy creating things which
+						lives on internet. I am confident, curious and have passion to
+						explore and learn new things.
+					</p>
+					<p>
+						I am working as a Frontend developer in a fin-tech startup company
+						based in Mumbai, India since May, 2021.
+					</p>
+					<p>
+						Previously, had some experience working as a freelance and
+						collaborated with talented people to create web based applications
+						for over 2 years.
+					</p>
+				</div>
+			</div>
 		</Transition>
 	)
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "duration": "March 2019 to February 2021",
+    "employer": "Freelance",
+    "website": null,
+    "location": "Mumbai, India",
+    "role": "Full Stack Developer",
+    "description": "Developing web applications using React, Redux, Node, Express, MongoDB, and more."
+  },
+  {
+    "duration": "May 2021 to Present",
+    "employer": "Coradius Pvt Ltd",
+    "website": null,
+    "location": "Mumbai, India",
+    "role": "Frontend Developer",
+    "description": "Working on a Sass insurance platform"
+  }
+]
