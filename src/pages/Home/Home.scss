@@ -41,8 +41,8 @@
         text-decoration: none;
         text-transform: uppercase;
         transition: all 0.3s ease-in-out;
-        color: rgba(var(--shape-two-light), 1);
-        border: 3px solid rgba(var(--shape-two-light), 1);
+        color: rgba(var(--active), 1);
+        border: 3px solid rgba(var(--active), 0.6);
         &:hover {
           border-color: transparent;
           background-color: rgba(var(--secondary-dark), 1);

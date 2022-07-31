@@ -1,0 +1,114 @@
+[
+  {
+    "name": "MVNA",
+    "image": "mvna.png",
+    "website": "https://www.mvnassociation.org/",
+    "featured": false,
+    "stack": [
+      "react",
+      "node",
+      "express",
+      "mongodb",
+      "antd",
+      "nextjs"
+    ],
+    "projectType": "freelance",
+    "teamSize": "1-3",
+    "description": "It is a platform for building and deploying microservices. It is a tool for building and deploying microservices, and it is a tool for building and deploying microservices."
+  },
+  {
+    "name": "Cohesive",
+    "image": "cohesive.png",
+    "website": "https://web.cohesive.astirs.com/",
+    "featured": false,
+    "projectType": "freelance",
+    "teamSize": "1-3",
+    "stack": [
+      "react",
+      "node",
+      "express",
+      "mongoose",
+      "antd",
+      "nextjs"
+    ],
+    "description": "It is a platform for building and deploying microservices. It is a tool for building and deploying microservices, and it is a tool for building and deploying microservices."
+  },
+  {
+    "name": "Meme Creator",
+    "image": "meme-creator.png",
+    "website": "http://meme-creator-app.herokuapp.com",
+    "featured": true,
+    "projectType": "self",
+    "teamSize": null,
+    "stack": [
+      "react",
+      "node",
+      "express",
+      "mongodb"
+    ],
+    "description": "It is a application for creating memes. It has different templates and Editing tools."
+  },
+  {
+    "name": "Technically Sorted",
+    "image": "technically-sorted.png",
+    "website": "https://technicallysorted.com",
+    "featured": false,
+    "stack": [
+      "php",
+      "codeigniter",
+      "mariadb",
+      "jquery"
+    ],
+    "projectType": "freelance",
+    "teamSize": "2",
+    "description": "<p>It is a web application for course listing for an Individual, related to financial market trading.</p><p>Project contains various dynamic pages which can be managed through Admin Dashboard</p>"
+  },
+  {
+    "name": "Eurasia Education Link",
+    "image": "eurasia-education-link.png",
+    "featured": false,
+    "website": "https://www.eurasiaeducationlink.com",
+    "stack": [
+      "php",
+      "codeigniter",
+      "mariadb",
+      "adminty-dashboard",
+      "jquery"
+    ],
+    "projectType": "freelance",
+    "teamSize": "2",
+    "description": "<p>It is a web application for managing education consultancy service.</p><p> It is a complete onestop CMS with various roles and permissions</p>"
+  },
+  {
+    "name": "The Rainbow Creations",
+    "image": "the-rainbow-creations.png",
+    "website": "https://therainbowcreations.com",
+    "featured": false,
+    "stack": [
+      "php",
+      "codeigniter",
+      "mariadb",
+      "adminty-dashboard",
+      "jquery"
+    ],
+    "projectType": "freelance",
+    "teamSize": "2",
+    "description": "<p>It is an event management company based in New Delhi and Varanasi.</p><p>The website has Services listing and Gallery for the events hosted. </p>"
+  },
+  {
+    "name": "Khidmaah Foundation",
+    "image": "khidmaah-foundation.jpg",
+    "website": "https://www.khidmaahfoundation.org",
+    "featured": false,
+    "stack": [
+      "php",
+      "codeigniter",
+      "mariadb",
+      "adminty-dashboard",
+      "jquery"
+    ],
+    "projectType": "freelance",
+    "teamSize": "2",
+    "description": "<p>It is an NGO for providing charity food to the needy people within Mumbai.</p>"
+  }
+]

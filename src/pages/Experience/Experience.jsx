@@ -7,8 +7,9 @@ const Experience = () => {
 		return experience.map((exp, i) => {
 			return (
 				<Timeline.Content key={`${exp.role}_${i}`}>
-					<strong className='duration'>{exp.duration}</strong>
-					<h5 className='role'>{exp.role}</h5>
+					<h4 className='duration'>{exp.duration}</h4>
+					<h5 className='company'>{exp.company}</h5>
+					<h4 className='role'>{exp.role}</h4>
 					<p className='description'>{exp.description}</p>
 				</Timeline.Content>
 			)

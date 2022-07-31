@@ -19,11 +19,12 @@
       font-size: 1.25rem;
       transition: all 0.3s ease-in-out;
       &:hover {
-        color: rgba(var(--primary-text), 1);
+        color: rgba(var(--active), 0.5);
       }
 
       &.active {
-        color: rgba(var(--secondary-light), 1);
+        font-weight: bold;
+        color: rgba(var(--active), 1);
       }
 
       @media screen and (max-width: 1100px) {
@@ -45,7 +46,7 @@
   align-items: flex-end;
   gap: 0.5rem;
   .line {
-    width: 8px;
+    width: 4px;
     border-radius: 50vw;
     background: rgba(var(--primary-text), 0.2);
     margin-bottom: 1rem;
@@ -57,7 +58,7 @@
     }
 
     @media screen and (max-width: 425px) {
-      width: 4px;
+      width: 2px;
     }
   }
 }

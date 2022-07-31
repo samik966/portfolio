@@ -8,7 +8,7 @@
   --dot-bg-color: rgba(var(--secondary-light), 1);
   --dot-size: calc(var(--line-thickness) * 6);
   --center-pos: calc((var(--dot-size) / -2) + (var(--line-thickness) / 2));
-  --active-dot-bg-color: rgba(var(--shape-one-dark), 1);
+  --active-dot-bg-color: rgba(var(--active), 1);
   --active-dot-border-color: rgba(var(--secondary-dark), 0.5);
 
   .timeline__line {

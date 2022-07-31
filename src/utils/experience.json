@@ -1,7 +1,7 @@
 [
   {
     "duration": "March 2019 to February 2021",
-    "employer": "Freelance",
+    "company": "Freelance",
     "website": null,
     "location": "Mumbai, India",
     "role": "Full Stack Developer",
@@ -9,7 +9,7 @@
   },
   {
     "duration": "May 2021 to Present",
-    "employer": "Coradius Pvt Ltd",
+    "company": "Coradius Pvt Ltd",
     "website": null,
     "location": "Mumbai, India",
     "role": "Frontend Developer",

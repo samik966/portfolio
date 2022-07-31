@@ -12,6 +12,7 @@ export const themes = {
       dark: '#062726',
       text: '#f7ffff'
     },
+    active: '#31E487',
     shape: {
       one: {
         light: '#2B2D2B',
@@ -28,7 +29,8 @@ export const themes = {
     },
     logo: '#f7ffff',
     white: '#f7ffff',
-    black: '#020d0c'
+    black: '#020d0c',
+    gray: '#cccccc'
   },
   light: {
     primary: {

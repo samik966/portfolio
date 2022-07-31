@@ -1,3 +1,62 @@
 #skills__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
+  .skills__image__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    margin-top: 2rem;
+    @media screen and (max-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+      
+    }
+    .skill__card {
+      position: relative;
+      min-width: 100px;
+      max-width: 300px;
+      display: flex;
+      height: 100%;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      cursor: pointer;
+      background-color: rgba(var(--secondary), 0.4);
+      background: linear-gradient(135deg, rgb(var(--primary-dark)) 0%, rgb(var(--secondary-dark)) 100%);
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+      .skill__level {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(var(--secondary), 0.4);
+      }
+      .skill {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        @media screen and (max-width: 600px) {
+          width: 90px;
+        }
+        @media screen and (max-width: 350px) {
+          width: 85px;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
 }

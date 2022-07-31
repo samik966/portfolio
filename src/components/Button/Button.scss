@@ -1,0 +1,22 @@
+.link__button {
+  margin-top: 2rem;
+  &-link {
+    font-weight: bold;
+    border-radius: 50vw;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    color: rgba(var(--active), 1);
+    border: 3px solid rgba(var(--active), 0.6);
+    &:hover {
+      border-color: transparent;
+      background-color: rgba(var(--secondary-dark), 1);
+      color: rgba(var(--secondary-text), 1);
+    }
+
+    @media screen and (max-width: 900px) {
+      padding: 0.5rem 1.5rem;
+    }
+  }
+}

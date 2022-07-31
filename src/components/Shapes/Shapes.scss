@@ -14,10 +14,10 @@
 }
 
 .shape1 {
-  background: rgba(var(--shape-one-dark), 0.3);
-  background: -webkit-linear-gradient(top left, rgba(var(--shape-one-dark), 0.3), rgba(var(--shape-one-light), 0.3));
-  background: -moz-linear-gradient(top left, rgba(var(--shape-one-dark), 0.3), rgba(var(--shape-one-light), 0.3));
-  background: linear-gradient(to bottom right, rgba(var(--shape-one-dark), 0.3), rgba(var(--shape-one-light), 0.3));
+  background: rgba(var(--shape-one-dark), 0.15);
+  background: -webkit-linear-gradient(top left, rgba(var(--shape-one-dark), 0.15), rgba(var(--shape-one-light), 0.15));
+  background: -moz-linear-gradient(top left, rgba(var(--shape-one-dark), 0.15), rgba(var(--shape-one-light), 0.15));
+  background: linear-gradient(to bottom right, rgba(var(--shape-one-dark), 0.15), rgba(var(--shape-one-light), 0.15));
 }
 
 .shape2 {
@@ -28,12 +28,12 @@
 }
 
 .shape3 {
-  background: rgba(var(--shape-three-dark), 0.3);
+  background: rgba(var(--shape-three-dark), 0.2);
   background: -webkit-linear-gradient(
     top left,
-    rgba(var(--shape-three-dark), 0.3),
-    rgba(var(--shape-three-light), 0.3)
+    rgba(var(--shape-three-dark), 0.2),
+    rgba(var(--shape-three-light), 0.2)
   );
-  background: -moz-linear-gradient(top left, rgba(var(--shape-three-dark), 0.3), rgba(var(--shape-three-light), 0.3));
-  background: linear-gradient(to bottom right, rgba(var(--shape-three-dark), 0.3), rgba(var(--shape-three-light), 0.3));
+  background: -moz-linear-gradient(top left, rgba(var(--shape-three-dark), 0.2), rgba(var(--shape-three-light), 0.2));
+  background: linear-gradient(to bottom right, rgba(var(--shape-three-dark), 0.2), rgba(var(--shape-three-light), 0.2));
 }

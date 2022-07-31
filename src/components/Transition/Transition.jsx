@@ -14,7 +14,9 @@ const Transition = ({ children, id }) => {
 				type: 'spring',
 				damping: 8,
 				mass: 0.3,
-				stiffness: 70
+				stiffness: 70,
+				staggerChildren: 0.5,
+				delayChildren: 0.1
 			}}
 		>
 			{children}
