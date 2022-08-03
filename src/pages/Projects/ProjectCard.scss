@@ -69,7 +69,12 @@
       object-fit: contain;
     }
   }
-
+  .project__description {
+    p {
+      font-size: 0.8rem;
+      letter-spacing: 0.5px;
+    }
+  }
   .project__type__container {
     display: flex;
     justify-content: space-between;
