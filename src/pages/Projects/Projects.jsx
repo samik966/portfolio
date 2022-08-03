@@ -1,10 +1,14 @@
-import { Transition } from 'components'
-import projects from 'utils/projects.json'
-import './Projects.scss'
+import { Loader, Transition } from 'components'
 import FeaturedProject from './FeaturedProject'
 import ProjectCard from './ProjectCard'
+import { usePortfolioContext } from 'context/PortfolioContext'
+import './Projects.scss'
 
 const Projects = () => {
+	const { projects } = usePortfolioContext()
+	if (!projects) {
+		return <Loader />
+	}
 	const renderProjects = () => {
 		return projects
 			.filter((project) => !project.featured)
@@ -22,10 +26,12 @@ const Projects = () => {
 	return (
 		<Transition id='projects__container'>
 			<h1>Projects</h1>
-			<div className='featured__project__container'>
-				{renderFeaturedProjects()}
+			<div className='projects'>
+				<div className='projects__card__container'>
+					{renderFeaturedProjects()}
+				</div>
+				<div className='projects__card__container'>{renderProjects()}</div>
 			</div>
-			<div className='projects__card__container'>{renderProjects()}</div>
 		</Transition>
 	)
 }

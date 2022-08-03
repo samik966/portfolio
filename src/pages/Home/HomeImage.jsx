@@ -7,7 +7,7 @@ const HomeImage = () => {
 			<path
 				d='M118.26,98.45V62.51a10,10,0,0,1,10-9.95H284A10,10,0,0,1,294,62.51v55.62'
 				fill='none'
-				stroke='#e6e6e6'
+				stroke='rgb(var(--primary-dark))'
 				strokeLinecap='round'
 				strokeLinejoin='round'
 				strokeDasharray='3 10'
@@ -17,166 +17,166 @@ const HomeImage = () => {
 				y='35.72'
 				width='48.48'
 				height='33.68'
-				fill='#e6e6e6'
+				fill='rgb(var(--gray))'
 			></rect>
 			<path
 				d='M207.35,52.24c1.46,0,1.66-.8,1.66-1.52a12.5,12.5,0,0,0-.16-1.72,10.88,10.88,0,0,1-.17-1.7c0-1.89,1.23-2.69,3-2.69h.44v1.13h-.37c-1.21,0-1.62.66-1.62,1.76a9.24,9.24,0,0,0,.14,1.46,9.73,9.73,0,0,1,.14,1.56,2,2,0,0,1-1.47,2.21v0A2,2,0,0,1,210.38,55a9.5,9.5,0,0,1-.14,1.55A9.6,9.6,0,0,0,210.1,58c0,1.15.47,1.78,1.62,1.78h.37V61h-.44c-1.7,0-3-.74-3-2.81a10.75,10.75,0,0,1,.17-1.68A11.52,11.52,0,0,0,209,54.8c0-.63-.2-1.52-1.66-1.52Z'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--surface-text))'
 			></path>
 			<path
 				d='M231.38,53.33c-1.46,0-1.66.8-1.66,1.51a12.36,12.36,0,0,0,.16,1.72,12.38,12.38,0,0,1,.17,1.71c0,1.88-1.23,2.68-3,2.68h-.43V59.82H227c1.21,0,1.62-.65,1.62-1.76a9.12,9.12,0,0,0-.14-1.45,9.94,9.94,0,0,1-.15-1.56,2,2,0,0,1,1.48-2.22v0a2,2,0,0,1-1.48-2.23,9.49,9.49,0,0,1,.15-1.56,9.37,9.37,0,0,0,.14-1.48c0-1.14-.47-1.78-1.62-1.78h-.37V44.61h.43c1.7,0,3,.74,3,2.81a11.81,11.81,0,0,1-.17,1.68,11.8,11.8,0,0,0-.16,1.66c0,.64.2,1.52,1.66,1.52Z'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--surface-text))'
 			></path>
 			<rect
 				x='68.95'
 				y='81.78'
 				width='100.79'
 				height='100.79'
-				fill='rgba(var(--secondary-dark), 1)'
+				fill='rgb(var(--secondary-dark))'
 			></rect>
 			<rect
 				x='98.4'
 				y='126'
 				width='32.38'
 				height='3.62'
-				fill='rgba(var(--secondary-light), 1)'
+				fill='rgb(var(--secondary-light))'
 			></rect>
 			<rect
 				x='107.69'
 				y='115.91'
 				width='28.94'
 				height='3.62'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--secondary))'
 			></rect>
 			<rect
 				x='135.28'
 				y='154.16'
 				width='15.1'
 				height='3.62'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--secondary))'
 			></rect>
 			<rect
 				x='120.02'
 				y='143.97'
 				width='15.1'
 				height='3.62'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--secondary))'
 			></rect>
 			<rect
 				x='107.69'
 				y='134.76'
 				width='38.58'
 				height='3.62'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--secondary))'
 			></rect>
 			<rect
 				x='86.39'
 				y='134.76'
 				width='14.51'
 				height='3.62'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgb(var(--surface-text))'
 			></rect>
 			<rect
 				x='100.84'
 				y='144.28'
 				width='14.51'
 				height='3.62'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgb(var(--surface-text))'
 			></rect>
 			<rect
 				x='87.1'
 				y='163.7'
 				width='14.51'
 				height='3.62'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgb(var(--surface-text))'
 			></rect>
 			<rect
 				x='77.11'
 				y='126'
 				width='14.51'
 				height='3.62'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgb(var(--surface-text))'
 			></rect>
 			<circle
 				cx='75.55'
 				cy='87.89'
 				r='1.71'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgb(var(--surface-text))'
 			></circle>
 			<circle
 				cx='80.63'
 				cy='87.89'
 				r='1.71'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--secondary))'
 			></circle>
 			<circle
 				cx='85.41'
 				cy='87.89'
 				r='1.71'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--secondary))'
 			></circle>
 			<rect
 				x='77.11'
 				y='98.45'
 				width='14.51'
 				height='3.62'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgb(var(--surface-text))'
 			></rect>
 			<rect
 				x='86.39'
 				y='107.51'
 				width='14.51'
 				height='3.62'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgb(var(--surface-text))'
 			></rect>
 			<rect
 				x='107.69'
 				y='107.51'
 				width='28.94'
 				height='3.62'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--secondary))'
 			></rect>
 			<rect
 				x='86.39'
 				y='115.91'
 				width='14.51'
 				height='3.62'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgb(var(--surface-text))'
 			></rect>
 			<rect
 				x='97.42'
 				y='98.45'
 				width='29.89'
 				height='3.62'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--secondary))'
 			></rect>
 			<rect
 				x='77.52'
 				y='154.16'
 				width='14.51'
 				height='3.62'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgb(var(--surface-text))'
 			></rect>
 			<rect
 				x='97.82'
 				y='154.16'
 				width='29.89'
 				height='3.62'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--secondary))'
 			></rect>
 			<rect
 				x='107.35'
 				y='163.68'
 				width='29.89'
 				height='3.62'
-				fill='rgba(var(--secondary), 1)'
+				fill='rgb(var(--secondary))'
 			></rect>
 			<rect
 				x='133.56'
 				y='98.45'
 				width='21.22'
 				height='3.62'
-				fill='rgba(var(--secondary-light), 1)'
+				fill='rgb(var(--secondary-light))'
 			></rect>
 			<polygon
 				points='196.85 118.13 202.1 147.32 187.6 148.4 190.5 124.99 196.85 118.13'
@@ -197,7 +197,7 @@ const HomeImage = () => {
 			></path>
 			<path
 				d='M199,127.28l2.39-9.08s5.24-.89,3.67-4.31-3.67-1.15-3.74-5.08-3.26-4.72-5.53-2.52-1.21-.88-4-1.3-3.57.83-3.64,3-4.13-.15-5.19,2.56-1.2,5.34,5.82,5.79S190.76,122.54,199,127.28Z'
-				fill='rgba(var(--secondary-dark), 1)'
+				fill='rgb(var(--secondary-dark))'
 			></path>
 			<path
 				d='M193.36,123.22s.36-2.63,2.32-2.2,1.46,4.25-1.28,4.29Z'
@@ -208,7 +208,7 @@ const HomeImage = () => {
 				cy='241.9'
 				rx='96.76'
 				ry='21.78'
-				fill='#e6e6e6'
+				fill='rgb(var(--secondary-light))'
 				opacity='0.45'
 			></ellipse>
 			<path
@@ -245,7 +245,7 @@ const HomeImage = () => {
 			></path>
 			<path
 				d='M214.63,156.68c-.16-11.45,13.65-17.54,21.9-9.61,6.05,5.82,11.95,14.55,14.86,27.49,7.35,32.59,20.56,27.6,27,17.32S283.59,159,283.59,159l11.73.22s10.07,58.68-33.06,60.86C229.06,221.75,215,184.13,214.63,156.68Z'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgba(var(--surface-text), 1)'
 				opacity='0.54'
 			></path>
 			<rect
@@ -267,7 +267,7 @@ const HomeImage = () => {
 				cx='197.67'
 				cy='205.43'
 				r='4.81'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgba(var(--surface-text), 1)'
 			></circle>
 			<path
 				d='M162.36,144.33a11.89,11.89,0,0,0-15.12,3.54c-8.54,11.41-27,38.54-26.19,58.22,1.1,25.55,56.82,22,56.82,22l-1.1-9.66S143,216,152.32,199.05C158.65,187.52,178.76,153.32,162.36,144.33Z'
@@ -275,7 +275,7 @@ const HomeImage = () => {
 			></path>
 			<path
 				d='M162.36,144.33a11.89,11.89,0,0,0-15.12,3.54c-8.54,11.41-27,38.54-26.19,58.22,1.1,25.55,56.82,22,56.82,22l-1.1-9.66S143,216,152.32,199.05C158.65,187.52,178.76,153.32,162.36,144.33Z'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgba(var(--surface-text), 1)'
 				opacity='0.54'
 			></path>
 			<path
@@ -291,15 +291,15 @@ const HomeImage = () => {
 			></rect>
 			<path
 				d='M287,130.54a1.2,1.2,0,0,1-.74-.25l-7.77-6.14a1.24,1.24,0,0,1-.46-.94,1.22,1.22,0,0,1,.45-.94l7.77-6.25a1.2,1.2,0,1,1,1.5,1.87l-6.59,5.31,6.59,5.2a1.21,1.21,0,0,1,.19,1.69A1.17,1.17,0,0,1,287,130.54Z'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgba(var(--surface-text), 1)'
 			></path>
 			<path
 				d='M301,130.54a1.2,1.2,0,0,1-.75-2.14l6.59-5.2-6.6-5.31a1.21,1.21,0,0,1-.18-1.69,1.2,1.2,0,0,1,1.69-.18l7.77,6.25a1.18,1.18,0,0,1,.44.94,1.23,1.23,0,0,1-.45.94l-7.77,6.14A1.2,1.2,0,0,1,301,130.54Z'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgba(var(--surface-text), 1)'
 			></path>
 			<path
 				d='M290.73,130.54a1.23,1.23,0,0,1-.49-.1,1.2,1.2,0,0,1-.6-1.59l5.66-12.4a1.2,1.2,0,0,1,2.19,1l-5.66,12.39A1.22,1.22,0,0,1,290.73,130.54Z'
-				fill='rgba(var(--primary-text), 1)'
+				fill='rgba(var(--surface-text), 1)'
 			></path>
 			<path
 				d='M177,220.67s8.56-3,10.61.55-1,8.38-9.76,6.87Z'

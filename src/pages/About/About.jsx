@@ -1,14 +1,15 @@
+import { motion } from "framer-motion";
 import { Transition } from 'components'
+import { opacityTransition } from "utils/transitions";
 import './About.scss'
-import image from 'assets/images/me.jpeg'
 const About = () => {
 	return (
 		<Transition id='about__container'>
 			<div className='about'>
-				<div className='about__image'>
-					<img src={image} alt='user' />
-				</div>
-				<div className='about__description'>
+				<motion.div className='about__image' variants={opacityTransition}>
+					<img src='assets/images/me.jpeg' alt='user' />
+				</motion.div>
+				<motion.div className='about__description' variants={opacityTransition}>
 					<h1>About</h1>
 					<p>
 						Hello, My name is Samiuddin Khan, I enjoy creating things which
@@ -24,7 +25,7 @@ const About = () => {
 						collaborated with talented people to create web based applications
 						for over 2 years.
 					</p>
-				</div>
+				</motion.div>
 			</div>
 		</Transition>
 	)

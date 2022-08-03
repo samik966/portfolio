@@ -1,11 +1,11 @@
 #layout {
   .shape1 {
-    top: -150px;
+    top: -200px;
     right: -150px;
     width: 500px;
     @media screen and (max-width: 600px) {
       top: -150px !important;
-      right: -150px;
+      right: -200px;
       opacity: 0.8;
       width: 400px;
     }

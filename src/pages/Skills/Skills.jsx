@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
-import { Transition } from 'components'
-import skills from 'utils/skills.json'
+import { Loader, Transition } from 'components'
+import { usePortfolioContext } from 'context/PortfolioContext'
+import { opacityTransition } from 'utils/transitions'
 import './Skills.scss'
 
 const cardContainerTransition = {
@@ -16,47 +17,44 @@ const cardContainerTransition = {
 	}
 }
 
-const cardTransition = {
-	show: {
-		opacity: 1
-	},
-	hide: {
-		opacity: 0
+
+const skillLevelTransition = {
+	showLevel: level => ({
+		height: level,
+		opacity: 1,
+		transition: {
+			duration: 0.5,
+			type: 'spring',
+			stiffness: 80,
+			damping: 10,
+			mass: 2
+		}
+	}),
+	hideLevel: {
+		opacity: 0,
+		height: 0,
+		transition: {
+			duration: 0.5
+		}
 	}
 }
 const SkillLevel = ({ level }) => {
-	const skillLevelTransition = {
-		showLevel: {
-			height: level,
-			opacity: 1,
-			transition: {
-				duration: 0.5,
-				type: 'spring',
-				stiffness: 80,
-				damping: 10,
-				mass: 2
-			}
-		},
-		hideLevel: {
-			opacity: 0,
-			height: 0,
-			transition: {
-				duration: 0.5
-			}
-		}
-	}
-	return <motion.div className='skill__level' variants={skillLevelTransition} />
+	return <motion.div className='skill__level' custom={level} variants={skillLevelTransition} />
 }
 
 const Skills = () => {
+	const { skills } = usePortfolioContext()
+	if (!skills) {
+		return <Loader />
+	}
 	const renderSkills = () => {
 		return skills.map((skill) => {
-			const image = require(`assets/images/skills/${skill.image}`)
+			const { image, name, level } = skill
 			return (
-				<motion.div key={skill.name} whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.1 }}>
+				<motion.div key={name} whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.1 }}>
 					<motion.div
 						className='skill__card'
-						variants={cardTransition}
+						variants={opacityTransition}
 					>
 						<motion.div
 							initial='hideLevel'
@@ -64,10 +62,10 @@ const Skills = () => {
 							whileTap='showLevel'
 							animate='hideLevel'
 						>
-							<SkillLevel level={skill.level} />
+							<SkillLevel level={level} />
 							<div className='skill'>
-								<img src={image} alt={skill.name} />
-								{skill.name && <p>{skill.name}</p>}
+								<img src={image} alt={name} />
+								{name && <p>{name}</p>}
 							</div>
 						</motion.div>
 					</motion.div>

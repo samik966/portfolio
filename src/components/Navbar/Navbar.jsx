@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom'
-
 import './Navbar.scss'
 
 const Navbar = () => {
@@ -49,8 +48,8 @@ const NavbarRight = () => {
 				</NavLink>
 			</div>
 			<div className='nav__item'>
-				<NavLink to='/hire-me' className='nav__link'>
-					Hire Me
+				<NavLink to='/contact' className='nav__link'>
+					Contact
 				</NavLink>
 			</div>
 		</div>
@@ -59,9 +58,5 @@ const NavbarRight = () => {
 
 Navbar.Left = NavbarLeft
 Navbar.Right = NavbarRight
-// - About
-// - Experience
-// - Skills
-// - Projects
-// - Hire Me / Socials
+
 export default Navbar

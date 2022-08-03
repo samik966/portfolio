@@ -3,56 +3,46 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 1rem;
-  @media screen and (max-width: 768px) {
-    max-width: 95%;
-  }
-  @media screen and (max-width: 425px) {
-    max-width: 90%;
-  }
 
-  .featured__project__container {
-    position: relative;
+  .projects {
     display: flex;
-    gap: 1rem;
-    justify-content: flex-start;
-    width: 100%;
-    margin-top: 1rem;
-    .feature__pin {
-      position: absolute;
-      width: 25px;
-      height: 25px;
-      right: 0;
-      top: 0;
-      background-color: rgb(var(--secondary));
-      border-radius: 0 0 0 1rem;
+    flex-direction: column;
+    width: inherit;
+    max-width: calc(100vw - (50px + 120px));
+    @media screen and (max-width: 768px) {
+      max-width: calc(100vw - (50px + 30px));
+    }
+    .projects__card__container {
+      position: relative;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      img {
-        aspect-ratio: 1;
-        width: 16px;
-        margin-left: 0.2rem;
-        margin-right: 0.2rem;
-        transform: rotate(45deg);
+      justify-content: flex-start;
+      overflow: auto;
+      width: 100%;
+      margin-top: 2rem;
+      padding-bottom: 1rem;
+      gap: 1rem;
+      .feature__pin {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: 0;
+        top: 0;
+        background-color: rgba(var(--primary), 0.6);
+        border-radius: 0 0 0 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          aspect-ratio: 1;
+          width: 16px;
+          margin-left: 0.2rem;
+          margin-right: 0.2rem;
+          transform: rotate(45deg);
+        }
+      }
+      .project__card.feature {
+        border: 4px solid rgba(var(--primary), 0.6);
       }
     }
-    .project__card.feature {
-      background-color: red;
-      border: 4px solid rgb(var(--secondary));
-    }
   }
-  .projects__card__container {
-    display: flex;
-    justify-content: flex-start;
-    overflow: auto;
-    width: 100%;
-    margin-top: 2rem;
-    padding-bottom: 1rem;
-    gap: 1rem;
-    @media screen and (max-width: 600px) {
-    }
-  }
-
-  
 }

@@ -1,49 +1,48 @@
 export const themes = {
-  dark: {
+  light: {
+    surface: {
+      main: '#d2ebf7',
+      text: '#052636'
+    },
     primary: {
-      main: '#1e1e24',
-      light: '#272b2b',
-      dark: '#020d0c',
-      text: '#e1fcfc'
+      main: '#40cae6',
+      light: '#69c4d6',
+      dark: '#137c91',
+      text: '#f2fafa'
     },
     secondary: {
-      main: '#2c514c',
-      light: '#5b8266',
-      dark: '#062726',
-      text: '#f7ffff'
+      main: '#80cccf',
+      light: '#7fb8ba',
+      dark: '#428c8f',
+      text: '#5c706f'
     },
-    active: '#31E487',
-    shape: {
-      one: {
-        light: '#2B2D2B',
-        dark: '#31E487'
-      },
-      two: {
-        light: '#1DD275',
-        dark: '#9AD4D1'
-      },
-      three: {
-        light: '#02A372',
-        dark: '#727CA5'
-      }
-    },
+    active: '#0aa199',
     logo: '#f7ffff',
     white: '#f7ffff',
-    black: '#020d0c',
-    gray: '#cccccc'
+    black: '#031c1a',
+    gray: '#9b9e9e'
   },
-  light: {
+  dark: {
+    surface: {
+      main: '#032230',
+      text: '#a7c2cf'
+    },
     primary: {
-      main: '#00bcd4',
-      light: '#656543',
-      dark: '#952343',
-      text: '#fff'
+      main: '#115661',
+      light: '#3b6073',
+      dark: '#0a3d45',
+      text: '#a7c2cf'
     },
     secondary: {
-      main: '#f50057',
-      light: '#86758',
-      dark: '#ea86e0',
-      text: '#fff'
-    }
+      main: '#30706b',
+      light: '#3d6b67',
+      dark: '#0d5952',
+      text: '#889494'
+    },
+    active: '#078a8a',
+    logo: '#d9fafa',
+    white: '#f7ffff',
+    black: '#031c1a',
+    gray: '#646666'
   }
 }

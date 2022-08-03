@@ -1,15 +1,19 @@
-import { Timeline, Transition } from 'components'
-import experience from 'utils/experience.json'
+import { Loader, Timeline, Transition } from 'components'
+import { usePortfolioContext } from 'context/PortfolioContext'
 import './Experience.scss'
 
 const Experience = () => {
+	const { experiences } = usePortfolioContext()
+	if (!experiences) {
+		return <Loader />
+	}
 	const generateTimeline = () => {
-		return experience.map((exp, i) => {
+		return experiences.map((exp, i) => {
 			return (
-				<Timeline.Content key={`${exp.role}_${i}`}>
-					<h4 className='duration'>{exp.duration}</h4>
-					<h5 className='company'>{exp.company}</h5>
+				<Timeline.Content key={`${exp.role}_${i}`} content={exp}>
 					<h4 className='role'>{exp.role}</h4>
+					<p className='company'>{exp.company}</p>
+					<p className='duration'>{exp.duration}</p>
 					<p className='description'>{exp.description}</p>
 				</Timeline.Content>
 			)

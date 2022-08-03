@@ -8,9 +8,8 @@
   padding: 0 0.75rem;
   position: relative;
   overflow: hidden;
-  color: rgb(var(--primary-text));
-  background: rgb(var(--primary-dark));
-  background: linear-gradient(135deg, rgb(var(--primary-dark)) 0%, rgb(var(--secondary-dark)) 100%);
+  color: rgb(var(--surface-text));
+  background: rgb(var(--surface));
   @media (min-width: 576px) {
     padding: 0 1rem;
   }

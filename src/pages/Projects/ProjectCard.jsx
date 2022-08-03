@@ -1,6 +1,5 @@
 import { DisplayHtmlString } from 'components'
 import { motion } from 'framer-motion'
-import pinIcon from 'assets/images/pin.svg'
 import './ProjectCard.scss'
 import ProjectStack from './ProjectStack'
 import { capitalize } from 'utils/capitalize'
@@ -16,7 +15,6 @@ const ProjectCard = ({ project }) => {
 		stack,
 		description
 	} = project
-	const imageUrl = require(`assets/images/projects/${image}`)
 	const cardClassName = featured ? 'project__card feature' : 'project__card'
 	return (
 		<a
@@ -29,12 +27,12 @@ const ProjectCard = ({ project }) => {
 			<motion.div className={cardClassName}>
 				{featured && (
 					<div className='feature__pin'>
-						<img src={pinIcon} alt='featured icon' />
+						<img src='assets/images/pin.svg' alt='featured icon' />
 					</div>
 				)}
 				<div className='project__header'>
 					<motion.div className='project__image'>
-						<img src={imageUrl} alt={name} />
+						<img src={image} alt={name} />
 					</motion.div>
 					<div className='project__stack__container'>
 						<ProjectStack stack={stack} />

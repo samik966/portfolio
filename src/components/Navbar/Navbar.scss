@@ -11,11 +11,11 @@
     margin-bottom: 5rem;
   }
   .nav__item {
-    color: rgba(var(--primary-text), 0.8);
+    color: rgba(var(--surface-text), 0.8);
     .nav__link {
       text-decoration: none;
       writing-mode: vertical-lr;
-      color: rgba(var(--primary-text), 0.8);
+      color: rgba(var(--surface-text), 0.8);
       font-size: 1.25rem;
       transition: all 0.3s ease-in-out;
       &:hover {
@@ -48,7 +48,7 @@
   .line {
     width: 4px;
     border-radius: 50vw;
-    background: rgba(var(--primary-text), 0.2);
+    background: rgba(var(--primary), 0.4);
     margin-bottom: 1rem;
     &.one {
       height: 50%;
