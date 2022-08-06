@@ -15,7 +15,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 0.7em;
+  width: 0.5em;
   height: 0.5em;
 }
 ::-webkit-scrollbar-track {
@@ -23,8 +23,12 @@ body {
   border-radius: 100vw;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(var(--secondary));
+  background-color: rgba(var(--secondary-dark), 0.6);
   border-radius: 100vw;
+  transition: all 0.5s;
+  &:hover {
+    background-color: rgba(var(--secondary-dark), 1);
+  }
 }
 
 @media screen and (max-width: 768px) {

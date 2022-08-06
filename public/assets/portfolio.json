@@ -174,6 +174,11 @@
       "name": "Linkedin",
       "url": "https://www.linkedin.com/in/devsami/",
       "image": "assets/images/socials/linkedin.svg"
+    },
+    {
+      "name": "Gmail",
+      "url": "mailto:khanbeing9@gmail.com",
+      "image": "assets/images/socials/gmail.svg"
     }
   ]
 }

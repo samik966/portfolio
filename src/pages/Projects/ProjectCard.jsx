@@ -27,7 +27,7 @@ const ProjectCard = ({ project }) => {
 			<motion.div className={cardClassName}>
 				{featured && (
 					<div className='feature__pin'>
-						<img src='assets/images/pin.svg' alt='featured icon' />
+						<img src='assets/images/star.svg' alt='featured icon' />
 					</div>
 				)}
 				<div className='project__header'>
