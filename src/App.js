@@ -8,10 +8,10 @@ function App () {
   const { toggleTheme, theme } = useTheme()
   const location = useLocation()
   return (
-    <AnimatePresence exitBeforeEnter>
-      <Layout key={location.pathname}>
-        <ThemeToggle active={theme === 'dark' } onClick={toggleTheme} />
-        <Routes location={location}>
+    <Layout>
+      <ThemeToggle active={theme === 'dark'} onClick={toggleTheme} />
+      <AnimatePresence exitBeforeEnter>
+        <Routes key={location.pathname} location={location}>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/experience' element={<Experience />} />
@@ -20,8 +20,8 @@ function App () {
           <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<Error404 />} />
         </Routes>
-      </Layout>
-    </AnimatePresence>
+      </AnimatePresence>
+    </Layout>
   )
 }
 

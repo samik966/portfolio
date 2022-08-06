@@ -4,7 +4,7 @@ import LogoImage from './LogoImage'
 const Logo = () => {
 	return (
 		<div className='logo__container'>
-			<LogoImage color={'white'} />
+			<LogoImage />
 		</div>
 	)
 }

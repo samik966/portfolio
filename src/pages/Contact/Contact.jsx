@@ -1,5 +1,7 @@
+import { motion } from 'framer-motion'
 import { Transition } from 'components'
 import { usePortfolioContext } from 'context/PortfolioContext'
+import { cardContainerTransition, opacityTransition } from 'utils/transitions'
 import './Contact.scss'
 
 const Contact = () => {
@@ -11,19 +13,32 @@ const Contact = () => {
 		return socials.map((social) => {
 			const { name, url, image } = social
 			return (
-				<div className='contact__content' key={name}>
+				<motion.div
+					className='contact__content'
+					key={name}
+					whileHover={{ scale: 1.1 }}
+					whileTap={{ scale: 1.1 }}
+					variants={opacityTransition}
+				>
 					<a href={url} target='_blank' rel='noopener noreferrer'>
 						<img src={image} alt={name} />
 						<span>{name}</span>
 					</a>
-				</div>
+				</motion.div>
 			)
 		})
 	}
 	return (
 		<Transition id='contact__container'>
 			<h1>Get In Touch</h1>
-			<div className='contact_socials'>{renderSocials()}</div>
+			<motion.div
+				className='contact_socials'
+				initial='hide'
+				animate='show'
+				variants={cardContainerTransition}
+			>
+				{renderSocials()}
+			</motion.div>
 		</Transition>
 	)
 }

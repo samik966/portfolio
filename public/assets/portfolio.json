@@ -3,7 +3,6 @@
     {
       "duration": "March 2019 to February 2021",
       "company": "DevBytes.in | Freelance",
-      "website": null,
       "location": "Mumbai, India",
       "role": "Full Stack Developer",
       "description": "It was an informal group of developers, where we worked together on various freelance projects, mostly using LAMP stack and lately MERN stack."
@@ -11,7 +10,6 @@
     {
       "duration": "May 2021 to Present",
       "company": "Coradius Pvt Ltd",
-      "website": null,
       "active": true,
       "location": "Mumbai, India",
       "role": "Frontend Developer",

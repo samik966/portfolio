@@ -1,21 +1,8 @@
 import { motion } from 'framer-motion'
 import { Loader, Transition } from 'components'
 import { usePortfolioContext } from 'context/PortfolioContext'
-import { opacityTransition } from 'utils/transitions'
+import { cardContainerTransition, opacityTransition } from 'utils/transitions'
 import './Skills.scss'
-
-const cardContainerTransition = {
-	hide: {
-		opacity: 0
-	},
-	show: {
-		opacity: 1,
-		transition: {
-			staggerChildren: 0.1,
-			delayChildren: 0.1
-		}
-	}
-}
 
 
 const skillLevelTransition = {
