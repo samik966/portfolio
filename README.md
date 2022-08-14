@@ -6,7 +6,7 @@
 - Experience
 - Skills
 - Projects
-- Hire Me / Socials
+- Socials
 
 <blockquote>Home</blockquote>
 
@@ -46,7 +46,6 @@
   - Image
   - CTA - View Project
 
-<blockquote>Hire Me / Socials</blockquote>
+<blockquote>Contact / Socials</blockquote>
 
-- CTA - Hire Me
 - Social Media Icons
