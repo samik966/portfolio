@@ -11,7 +11,7 @@ const Home = () => {
 				<Shape className='circle shape2' />
 				<h1 className='home__name'>Samiuddin Khan</h1>
 				<h5 className='home__role'>Frontend Developer</h5>
-				<LinkButton href='/hire-me'>Hire Me</LinkButton>
+				<LinkButton href='/contact'>Hire Me</LinkButton>
 			</motion.div>
 			<motion.div className='home__image' variants={opacityTransition}>
 				<motion.div animate='show' variants={bounceTransition}>
