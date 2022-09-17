@@ -54,7 +54,7 @@
     {
       "name": "Meme Creator",
       "image": "assets/images/projects/meme-creator.png",
-      "website": "http://meme-creator-app.herokuapp.com",
+      "website": "https://memeapp.vercel.app",
       "featured": true,
       "projectType": "self",
       "teamSize": null,
