@@ -10,11 +10,20 @@ const Experience = () => {
 	const generateTimeline = () => {
 		return experiences.map((exp, i) => {
 			return (
-				<Timeline.Content key={`${exp.role}_${i}`} content={exp}>
+				<Timeline.Content key={`${exp.role}_${exp.company}`} content={exp}>
 					<h4 className='role'>{exp.role}</h4>
-					<p className='company'>{exp.company}</p>
 					<p className='duration'>{exp.duration}</p>
-					<p className='description'>{exp.description}</p>
+					<div className='company-desc'>
+						<img
+							className='company-logo'
+							src={`/assets/images/experiences/${exp.logo}`}
+							alt={`${exp.company} Logo`}
+						/>
+						<div>
+							<p className='company'>{exp.company}</p>
+							<p className='description'>{exp.description}</p>
+						</div>
+					</div>
 				</Timeline.Content>
 			)
 		})

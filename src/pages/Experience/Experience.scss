@@ -23,11 +23,33 @@
     }
 
     .timeline__content {
+      .company-desc {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin: 1rem 0;
+
+        @media screen and (max-width: 425px) {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .company-logo {
+          max-width: 100%;
+          object-fit: contain;
+          width: 100px;
+          height: 100px;
+          background-color: rgba(255, 255, 255, 0.5);
+          -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+          border-radius: 0.5rem;
+          padding: 0.5rem;
+        }
+      }
       .duration {
         font-size: 0.8rem;
         color: rgb(var(--surface-text));
         font-weight: 500;
-        margin-bottom: 1rem;
       }
 
       .company {

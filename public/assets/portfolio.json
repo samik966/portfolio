@@ -3,6 +3,7 @@
     {
       "duration": "March 2019 to February 2021",
       "company": "DevBytes.in | Freelance",
+      "logo": "devbytes.png",
       "location": "Mumbai, India",
       "role": "Full Stack Developer",
       "description": "It was an informal group of developers, where we worked together on various freelance projects, mostly using LAMP stack and lately MERN stack."
@@ -10,10 +11,20 @@
     {
       "duration": "May 2021 to Present",
       "company": "Coradius Pvt Ltd",
+      "logo": "coradius.jpeg",
       "active": true,
       "location": "Mumbai, India",
       "role": "Frontend Developer",
       "description": "Worked on SmartCovr a Insurance SASS platform using React, Rematch, feathers client, and JSON schema forms for managing dynamic forms."
+    },
+    {
+      "duration": "December 2022 to Present",
+      "company": "UBS Business Solutions India",
+      "logo": "ubs.png",
+      "active": true,
+      "location": "Navi Mumbai, India",
+      "role": "Software Engineer",
+      "description": "Working as a React Developer."
     }
   ],
   "projects": [
