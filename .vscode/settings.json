@@ -1,0 +1,21 @@
+{
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+        "source.fixAll": "always",
+        "source.sortMembers": "always"
+    },
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "files.eol": "\n",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "tailwindCSS.classAttributes": ["class", "className", ".*ClassName"]
+}

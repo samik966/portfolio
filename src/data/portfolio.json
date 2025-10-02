@@ -1,0 +1,293 @@
+{
+    "logo": "/assets/images/logo.svg",
+    "header": {
+        "role": "Frontend Developer",
+        "tagline": "From Concept to Code. Delivering Comprehensive and Effective Solutions."
+    },
+    "socials": [
+        {
+            "url": "mailto:khanbeing9@gmail.com",
+            "text": "Gmail",
+            "icon": "mail",
+            "show": true
+        },
+        {
+            "url": "twitter.com",
+            "text": "Twitter",
+            "icon": "twitter",
+            "show": false
+        },
+        {
+            "url": "instagram.com",
+            "text": "Instagram",
+            "icon": "instagram",
+            "show": false
+        },
+        {
+            "url": "https://www.linkedin.com/in/devsami/",
+            "text": "Linkedin",
+            "icon": "linkedin",
+            "show": true
+        },
+        {
+            "url": "https://github.com/samik966",
+            "text": "Github",
+            "icon": "github",
+            "show": true
+        }
+    ],
+    "meta": {
+        "applicationName": "Samiuddin Khan",
+        "content": "",
+        "keywords": [
+            "portfolio",
+            "web developer",
+            "frontend",
+            "typescript",
+            "react",
+            "software developer",
+            "redux",
+            "nextjs",
+            "Springboot",
+            "nodejs",
+            "express",
+            "mongodb",
+            "postgresql"
+        ],
+        "title": "Samiuddin Khan | Senior Software Engineer Portfolio",
+        "authors": [
+            {
+                "name": "Samiuddin Khan",
+                "url": "https://devsami.vercel.app/"
+            }
+        ],
+        "creator": "Samiuddin Khan",
+        "publisher": "Samiuddin Khan",
+
+        "category": "",
+        "classification": ""
+    },
+    "sections": {
+        "about": {
+            "heading": {
+                "type": "heading",
+                "title": "About Me"
+            },
+            "childrens": [
+                {
+                    "type": "description",
+                    "content": [
+                        "Hello, I&apos;m <strong>Samiuddin Khan</strong>, a dedicated Full-Stack Developer with a passion for building robust and responsive web applications. With expertise in both frontend and backend technologies, I am committed to delivering seamless and impactful digital experiences.",
+                        "My software development journey began in 2019, and since then, I&apos;ve contributed to a diverse range of projects. From creating dynamic user interfaces to architecting efficient backend systems, I take pride in transforming innovative ideas into reality.",
+                        "Currently, I serve as a Full Stack Developer at UBS Business Solutions, where I have been since December 2022. Here, I leverage a leading enterprise tech stack, specializing in React, Spring Boot, and Microservice Architecture. My role allows me to tackle complex challenges, continuously learn new technologies, and collaborate with a talented team of professionals.",
+                        "I am a strong advocate for clean, maintainable code and believe in the value of continuous learning. My development philosophy centers on building solutions that are not only functional but also scalable and user-centric.",
+                        "Beyond coding, I enjoy quality time with my family, exploring new cuisines, and relaxing on the beach—activities that keep me balanced and motivated. Whether I&apos;m diving into new technologies or enjoying the outdoors, I strive to maintain a well-rounded lifestyle.",
+                        "To learn more about my professional background, visit my <a class='text-primary' href='#experiences'>Experiences</a>. Explore some of the <a class='text-primary' href='#projects'>Projects</a> I&apos;ve worked as freelance and the <a class='text-primary' href='#skills'>Skills</a> I&apos;ve mastered. Feel free to connect with me on my socials."
+                    ]
+                }
+            ]
+        },
+        "experiences": {
+            "heading": {
+                "type": "heading",
+                "title": "Experiences"
+            },
+            "childrens": [
+                {
+                    "type": "card",
+                    "title": "Software Engineer",
+                    "subtitle": "UBS Business Solutions Pvt Ltd",
+                    "timestamp": "12<sup>th</sup> Dec, 2022 to Present",
+                    "location": "Mumbai, India",
+                    "image": "/assets/images/experiences/ubs.png",
+                    "description": [
+                        "<strong>WCAT PNL</strong> - A multi-tenant application serving as a comprehensive controlling and reporting framework for all control functions. It offers automation, real-time monitoring, and end-to-end process optimization. By sharing common services, it avoids redundancy and reduces costs.",
+                        "Collaborated with Product Manager, Software Development, and DevOps teams in an agile environment. Developed frontend components using React to create controls and reports. Worked on the backend using Spring Boot and PostgreSQL."
+                    ],
+                    "pills": [
+                        "Javascript",
+                        "React",
+                        "PostgresSQL",
+                        "SpringBoot",
+                        "Microservices",
+                        "Ag-Grid",
+                        "Swagger",
+                        "Azure Cloud",
+                        "Azure Redis",
+                        "Redux"
+                    ]
+                },
+                {
+                    "type": "card",
+                    "title": "Frontend Developer",
+                    "subtitle": "Coradius Pvt Ltd",
+                    "timestamp": "10<sup>th</sup> May, 2021 to 10<sup>th</sup> Dec, 2022",
+                    "image": "/assets/images/experiences/coradius.png",
+                    "description": [
+                        "Worked on SmartCovr a Insurance SASS platform using React, Rematch, feathers client, and JSON schema forms for managing dynamic forms."
+                    ],
+                    "pills": [
+                        "Typescript",
+                        "React",
+                        "Redux",
+                        "FeathersJS",
+                        "Sass",
+                        "JSON Schema",
+                        "Material UI",
+                        "Semantic UI"
+                    ]
+                },
+                {
+                    "type": "card",
+                    "title": "Full Stack Developer",
+                    "subtitle": "DevBytes.in",
+                    "timestamp": "March, 2019 to February, 2021",
+                    "image": "/assets/images/experiences/devbytes.png",
+                    "description": [
+                        "We were an informal group of developers collaborating on various freelance projects, primarily using the LAMP stack and later the MERN stack, but eventually, we disbanded as we transitioned to full-time roles."
+                    ],
+                    "pills": [
+                        "Typescript",
+                        "React",
+                        "NextJS",
+                        "Redux",
+                        "Prisma",
+                        "PostgresSQL",
+                        "NodeJS",
+                        "Express",
+                        "MongoDB",
+                        "PHP",
+                        "CodeIgniter",
+                        "MySQL",
+                        "jQuery",
+                        "Bootstrap",
+                        "antd",
+                        "tailwindcss",
+                        "MariaDB"
+                    ]
+                }
+            ]
+        },
+        "projects": {
+            "heading": {
+                "type": "heading",
+                "title": "Projects"
+            },
+            "childrens": [
+                {
+                    "type": "card",
+                    "title": "MVNA",
+                    "image": "/assets/images/projects/mvna.png",
+                    "links": [
+                        {
+                            "title": "Website",
+                            "href": "https://www.mvnassociation.org"
+                        }
+                    ],
+                    "description": [
+                        "The Med-Vet-Net Association is a network of excellence that aims to pool expertise in veterinary science, in order to strengthen the prevention and control of zoonoses.",
+                        "The application has dynamic content, and a full page WYSIWIG editor to live edit the UI design using grape js."
+                    ],
+                    "pills": ["react", "node", "express", "mongodb", "antd", "nextjs"]
+                },
+                {
+                    "type": "card",
+                    "title": "Cohesive",
+                    "image": "/assets/images/projects/cohesive.png",
+                    "links": [
+                        {
+                            "title": "Website",
+                            "href": "https://web.cohesive.astirs.com"
+                        }
+                    ],
+                    "description": [
+                        "It is part of the One Health European Joint Programme. It provides guidance on setting up a One Health Risk Analysis System for zoonoses for your country.",
+                        "The application has dynamic content, and a full page WYSIWIG editor to live edit the UI design using grape js."
+                    ],
+                    "pills": ["react", "node", "express", "mongoose", "antd", "nextjs"]
+                },
+                {
+                    "type": "card",
+                    "title": "Meme Creator",
+                    "image": "/assets/images/projects/meme-creator.png",
+                    "links": [
+                        {
+                            "title": "Website",
+                            "href": "https://memeapp.vercel.app"
+                        }
+                    ],
+                    "description": [
+                        "It is an application for creating memes. It has different templates and Editing tools."
+                    ],
+                    "pills": ["react", "node", "express", "mongodb"]
+                },
+                {
+                    "type": "card",
+                    "title": "Eurasia Education Link",
+                    "image": "/assets/images/projects/eurasia-education-link.png",
+                    "links": [
+                        {
+                            "title": "Website",
+                            "href": "https://www.eurasiaeducationlink.com"
+                        }
+                    ],
+                    "description": [
+                        "It is a web application for managing education consultancy service. It is a complete one-stop CMS with various roles and permissions"
+                    ],
+                    "pills": ["php", "codeigniter", "mariadb", "adminty-dashboard", "jquery"]
+                }
+            ]
+        },
+        "skills": {
+            "heading": {
+                "type": "heading",
+                "title": "Skills"
+            },
+            "childrens": [
+                {
+                    "type": "pills",
+                    "pills": [
+                        "React",
+                        "NextJS",
+                        "Typescript",
+                        "ES6+",
+                        "Ag Grid",
+                        "Material UI",
+                        "Ant Design",
+                        "TailwindCSS",
+                        "Kendo UI",
+                        "Bootstrap",
+                        "jQuery",
+                        "Redux",
+                        "React Query",
+                        "Sass",
+                        "Styled Components",
+                        "Storybook",
+                        "Jest",
+                        "Vitest",
+                        "NodeJS",
+                        "Express",
+                        "MongoDB",
+                        "PostgresSQL",
+                        "Java 8",
+                        "SpringBoot",
+                        "Swagger",
+                        "Design Patterns",
+                        "Microservice Architecture",
+                        "Performance Optimization",
+                        "REST API",
+                        "Web Security",
+                        "Webpack",
+                        "Rollup",
+                        "Vite",
+                        "Git"
+                    ]
+                }
+            ]
+        }
+    },
+    "footer": {
+        "title": "Samiuddin Khan",
+        "description": ["Crafting code, one pixel at a time."]
+    }
+}
