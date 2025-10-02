@@ -16,11 +16,11 @@ const ThemeToggle = () => {
     return (
         <button
             aria-label="Toggle Theme"
-            className="flex items-center gap-2 rounded-full p-2 capitalize text-foreground shadow-sm outline-none hover:text-primary focus-visible:text-primary focus-visible:ring-1 focus-visible:ring-primary"
+            className="bg-background text-foreground hover:text-primary focus-visible:text-primary focus-visible:ring-primary flex items-center gap-2 rounded-full p-2 capitalize shadow-sm outline-none focus-visible:ring-1"
             onClick={handleTheme}
         >
-            <Icons.sun className="rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-            <Icons.moon className="absolute rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+            <Icons.sun className="scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
+            <Icons.moon className="absolute scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
         </button>
     );
 };
