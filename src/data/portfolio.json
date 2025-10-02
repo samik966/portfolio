@@ -1,7 +1,7 @@
 {
     "logo": "/assets/images/logo.svg",
     "header": {
-        "role": "Frontend Developer",
+        "role": "Software Engineer",
         "tagline": "From Concept to Code. Delivering Comprehensive and Effective Solutions."
     },
     "socials": [
@@ -54,7 +54,7 @@
             "mongodb",
             "postgresql"
         ],
-        "title": "Samiuddin Khan | Senior Software Engineer Portfolio",
+        "title": "Samiuddin Khan | Software Engineer Portfolio",
         "authors": [
             {
                 "name": "Samiuddin Khan",
