@@ -1,51 +1,36 @@
-### Portfolio Sections
----
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-- Home
-- About
-- Experience
-- Skills
-- Projects
-- Socials
+## Getting Started
 
-<blockquote>Home</blockquote>
+First, run the development server:
 
-- Heading / Name
-- Profession / Role
-- CTA - Hire Me
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-<blockquote>About</blockquote>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Name
-- Description (max 100 words)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-<blockquote>Experience</blockquote>
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- Card
-  - Company Name
-  - Position
-  - Date
-  - Description (max 100 words)
+## Learn More
 
-<blockquote>Skills</blockquote>
+To learn more about Next.js, take a look at the following resources:
 
-- Image
-- Skill Name
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-<blockquote>Projects</blockquote>
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- Featured / Recent Project
-  - Title
-  - Description (max 100 words)
-  - Image
-  - CTA - View Project
+## Deploy on Vercel
 
-- Other Projects
-  - Title
-  - Description (max 100 words)
-  - Image
-  - CTA - View Project
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<blockquote>Contact / Socials</blockquote>
-
-- Social Media Icons
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
